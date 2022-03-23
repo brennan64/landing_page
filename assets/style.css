@@ -9,12 +9,13 @@
     width: 100%;
     text-align: right;
     background-color: slategray;
-    border-bottom: 7px solid rgb(10, 10, 10);
+    border-bottom: 4px dashed rgb(42, 8, 104);
     top: 0;
     /* margin-bottom: 35%%; */
     z-index: 100;
-    height: auto;
+    height: 72px;
     border-radius: 1em;
+    padding-bottom: 24px;
 
     
 }
@@ -28,6 +29,8 @@
     border-radius: 1em;
     background-color: salmon;
     padding: 3px;
+    margin-top: 12px;
+    
 }
 
 nav a {
@@ -36,43 +39,30 @@ nav a {
  padding-left: 40px;
     font-size: 33pt ;
     border-left: 3px solid silver;
+    border-radius: .5em;
+    padding-bottom: 10px;
 }
+
+
 
  h1 {
    
 text-align: center;
   
-  
-} 
-
-/* .ella {
-   padding-left: 14%;
-   width: 400px;
-   height: auto;
-   border-radius: 20px 20px 20px 20px;
-   margin-top: 35px;
-}
-
-.gordy {
-  
-    max-width: 400px;
-    height: auto;
-    position: relative;
-    right: -115px;
-    border-radius: 20px 20px 20px 20px;
-} */
-
+ }
 
 #central {
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 49px;
     background-color: whitesmoke;
     margin-left: 13px;
+   
     
 } 
 
 #central #intro {
     text-align: center;
+   
 }
 
 
@@ -81,8 +71,8 @@ text-align: center;
 #contact {
     
     text-align: center;
-    
-    background-color:rgba(161, 80, 80, 0.144);
+    background-image: url('https://images.unsplash.com/photo-1610806812997-ab9b37287597?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80');
+   
     padding-bottom: 1%;
     line-height: 1;
     border-radius: 1em;
@@ -96,16 +86,7 @@ input {
     margin: 1%;
 }
 
-/* #introduction {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: whitesmoke;
-    position: relative;
-    right: -1214px;
-    top: -403px;
-    width: 197px;
-    font-size: 16pt;
-    text-align: center;
-} */
+
 article {
     background-color: whitesmoke;
     margin: 1%;
@@ -116,7 +97,7 @@ article {
 
 #main-project {
     display: flex;
-    background-color: red;
+   background-image: url('https://images.unsplash.com/photo-1598314348326-f51eef7c5c64?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
     
     min-height: 350px;
      margin: 1%;
@@ -125,48 +106,17 @@ article {
      border-radius: 1em;
 }
 
-
-
-/* .project2 {
- line-height: 1.3;
- width: 50%;
- display: flex;
- justify-content: flex-end;
- 
-}
-.project3 {
-    line-height: 1.3;
-    width: 50%;
-    display: flex;
-    justify-content: flex-start;
-    
-   }
-
-.project4 {
-    line-height: 1.3;
-    width: 50%;
-    display: flex;
-    justify-content: flex-start;
-    
-   }
-   .project5 {
-    line-height: 1.3;
-    width: 50%;
-    display: flex;
-    justify-content: flex-end;
-    
-   } */
-
    .work-folder1 div {
        width: 46%;
     display: flex;
     flex-direction: row;
-    background-color: lime;
+    background-image: url('https://images.unsplash.com/photo-1518563077661-23ad56581d77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2072&q=80');
  
     height: 200px;
     justify-content: center;
     align-items: center;
     margin: 2%;
+  
 
 
 border-radius: 1em;
@@ -176,7 +126,7 @@ border-radius: 1em;
     
     display: flex;
     flex-direction: row;
-    background-color: lime;
+    background-image: url('https://images.unsplash.com/photo-1518563077661-23ad56581d77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2072&q=80');
  width: 46%;
     height: 200px;
     justify-content: center;
@@ -197,8 +147,47 @@ border-radius: 1em;
     flex-wrap: wrap;
 }
 
+.work-folder1 div a {
+    color:aliceblue;
+}
+
+.work-folder2 div a {
+    color:aliceblue;
+}
+img {
+    display: inline;
+    width: 80px;
+    border-radius: 1em;
+    height: auto;
+  text-align: left;
+    
+}
 
 
+div a {
+  font-size: 36pt;  
+}
+
+.icon2 {
+    align-items: flex-start;
+    margin-right: 372px;
+    margin-top: 12px;
+}
+
+#main h1 {
+    margin-top: 6%;
+}
 
 
-
+@media only screen and (max-width: 600px) {
+#main_menu {
+    
+    display: none;
+}
+div {
+    width: 100%;
+}
+div a {
+    font-size: 10pt;
+}
+    }
