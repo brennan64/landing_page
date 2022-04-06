@@ -32,6 +32,7 @@ nav a {
   padding-left: 40px;
   font-size: 29pt;
   border-left: 3px solid silver;
+  border-radius: 0.5em;
 }
 
 h1 {
