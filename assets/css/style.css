@@ -19,21 +19,25 @@
   position: fixed;
   top: 0;
   left: 33px;
-  font-size: 30pt;
+  font-size: 22pt;
   border: 2px solid black;
   border-radius: 1em;
   background-color: salmon;
-  padding: 3px;
+  padding: 1px;
 }
 
 nav a {
   text-decoration: none;
   padding-right: 40px;
   padding-left: 40px;
-  font-size: 29pt;
+  font-size: 22pt;
   border-left: 3px solid silver;
   border-radius: 0.5em;
 }
+
+/* nav a:hover {
+  transform: scale(145%);
+} */
 
 h1 {
   text-align: center;
@@ -130,4 +134,12 @@ a:visited {
 
 a:link {
   color: rgb(44, 42, 42);
+}
+
+a:hover {
+  transform: scale(135%);
+}
+
+#contact h2 {
+  padding-top: 3%;
 }
