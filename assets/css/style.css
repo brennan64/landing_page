@@ -16,7 +16,7 @@
 }
 
 #main_menu a:hover {
-  color: maroon;
+  box-shadow: 2px 2px 2px 2px darkgreen;
 }
 
 .icon {
