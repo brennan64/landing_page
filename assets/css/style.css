@@ -122,3 +122,11 @@ article {
 .work a {
   font-size: 30pt;
 }
+
+a:visited {
+  color: whitesmoke;
+}
+
+a:link {
+  color: rgb(44, 42, 42);
+}
