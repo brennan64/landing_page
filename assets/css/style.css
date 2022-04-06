@@ -15,6 +15,10 @@
   border-radius: 1em;
 }
 
+#main_menu a:hover {
+  color: maroon;
+}
+
 .icon {
   position: fixed;
   top: 0;
