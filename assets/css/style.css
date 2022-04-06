@@ -1,0 +1,124 @@
+* {
+  font-family: "Comfortaa", cursive;
+}
+
+#main_menu {
+  position: fixed;
+  width: 100%;
+  text-align: right;
+  background-color: slategray;
+  border-bottom: 7px solid rgb(10, 10, 10);
+  top: 0;
+  /* margin-bottom: 35%%; */
+  z-index: 100;
+  height: auto;
+  border-radius: 1em;
+}
+
+.icon {
+  position: fixed;
+  top: 0;
+  left: 33px;
+  font-size: 30pt;
+  border: 2px solid black;
+  border-radius: 1em;
+  background-color: salmon;
+  padding: 3px;
+}
+
+nav a {
+  text-decoration: none;
+  padding-right: 40px;
+  padding-left: 40px;
+  font-size: 29pt;
+  border-left: 3px solid silver;
+}
+
+h1 {
+  text-align: center;
+}
+
+#central {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 49px;
+  background-color: whitesmoke;
+  margin-left: 13px;
+}
+
+#central #intro {
+  text-align: center;
+}
+
+#contact {
+  text-align: center;
+
+  background-color: rgba(161, 80, 80, 0.144);
+  padding-bottom: 1%;
+  line-height: 1.3;
+  border-radius: 1em;
+  margin: 1%;
+}
+#contact li {
+  list-style-type: none;
+}
+input {
+  margin: 1%;
+}
+
+article {
+  background-color: whitesmoke;
+  margin: 1%;
+}
+
+#main-project {
+  display: flex;
+  background-image: url("https://images.unsplash.com/photo-1582683522098-72ad7b0883a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80");
+
+  min-height: 350px;
+  margin: 1%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1em;
+}
+
+.work-folder1 div {
+  width: 46%;
+  display: flex;
+  flex-direction: row;
+  background-image: url("https://images.unsplash.com/photo-1582683522098-72ad7b0883a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80");
+
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+
+  border-radius: 1em;
+}
+
+.work-folder2 div {
+  display: flex;
+  flex-direction: row;
+  background-image: url("https://images.unsplash.com/photo-1582683522098-72ad7b0883a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80");
+  width: 46%;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+
+  border-radius: 1em;
+}
+
+.work-folder1 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.work-folder2 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.work a {
+  font-size: 30pt;
+}
