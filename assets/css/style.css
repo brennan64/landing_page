@@ -117,31 +117,26 @@ article {
   border-radius: 1em;
 }
 
-.work-folder1 {
+.work div {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-.work-folder2 {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+  white-space: nowrap;
+  background-image: url(https://images.unsplash.com/photo-1542885421-3fb3de1f9f0b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80);
+  border-radius: 1em;
+  padding-top: 2%;
+  margin-top: 2%;
 }
 
-.work a {
-  font-size: 30pt;
-}
-
-a:visited {
+.work div a {
   color: whitesmoke;
+  font-size: 30pt;
+  text-align: center;
 }
 
 a:link {
   color: rgb(44, 42, 42);
-}
-
-a:hover {
-  transform: scale(135%);
 }
 
 #contact h2 {
@@ -151,5 +146,9 @@ a:hover {
 @media only screen and (max-width: 600px) {
   nav {
     display: none;
+  }
+  .work div a {
+    font-size: medium;
+    color: whitesmoke;
   }
 }
