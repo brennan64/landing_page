@@ -144,11 +144,14 @@ a:link {
 }
 
 @media only screen and (max-width: 600px) {
-  nav {
+  /* nav {
     display: none;
-  }
+  } */
   .work div a {
     font-size: medium;
     color: whitesmoke;
+  }
+  #intro {
+    display: none;
   }
 }
