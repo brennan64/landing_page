@@ -154,4 +154,7 @@ a:link {
   #intro {
     display: none;
   }
+  #main_menu {
+    background-color: slategray;
+  }
 }
